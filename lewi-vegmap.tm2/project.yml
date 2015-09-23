@@ -1,0 +1,27 @@
+_prefs: 
+  mapid: ryanjhodge.4c6f39a2
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: National Park Service
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -124.07
+  - 46.0661
+  - 10
+description: Lewis and Clark National Historic Park Vegeation Map
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 0
+name: lewi-vegmap
+source: "mapbox:///ryanjhodge.07752149"
+styles: 
+  - style.mss
+template: ''

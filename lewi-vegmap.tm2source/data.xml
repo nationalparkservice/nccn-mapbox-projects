@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[National Park Service]]></Parameter>
+  <Parameter name="center">-123.9793,46.0918,10</Parameter>
+  <Parameter name="description"><![CDATA[Lewis and Clark National Historic Park Vegeation Map]]></Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"vegetation","description":"Lewis and Clark National Historical Park Vegetation Inventory","fields":{"OGC_FID":"Number","poly_id":"Number","mapunit_id":"String","mapunit_name":"String","mapunit_nvc_id":"String","x_centroid":"Number","y_centroid":"Number","acres":"Number","hectares":"Number","shape_length":"Number","shape_area":"Number","lewi_tmapunit_assoc any_cegl_code":"String","lewi_tmapunit_assoc any_associationcommonname":"String","lewi_tmapunit_assoc any_associationname":"String","lewi_tmapunit_assoc any_mapunit_nvc_id":"String","lewi_talliance any_nvc_alliance_code":"String","lewi_talliance any_alliance_common_name":"String","lewi_talliance any_alliance_name":"String","lewi_talliance any_mapunit_nvc_id":"String","lewi_tdivision any_division_code":"String","lewi_tdivision any_division_name":"String","lewi_tdivision any_mapunit_nvc_id":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">16</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[lewi-vegmap]]></Parameter>
+</Parameters>
+
+
+<Layer name="vegetation"
+  buffer-size="8"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[c:/Users/ryanj/Desktop\lewigeodata.sqlite]]></Parameter>
+       <Parameter name="key_field"><![CDATA[]]></Parameter>
+       <Parameter name="table"><![CDATA[(SELECT * FROM lewigeodata) AS data]]></Parameter>
+       <Parameter name="type"><![CDATA[sqlite]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
