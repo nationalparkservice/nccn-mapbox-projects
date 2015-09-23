@@ -13,7 +13,7 @@ description: Lewis and Clark National Historic Park Vegeation Map
 Layer: 
   - id: vegetation
     Datasource: 
-      file: "c:/Users/ryanj/Desktop\\lewigeodata.sqlite"
+      file: "data/lewigeodata.sqlite"
       key_field: ''
       table: (SELECT * FROM lewigeodata) AS data
       type: sqlite
