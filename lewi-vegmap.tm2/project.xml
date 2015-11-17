@@ -8,10 +8,13 @@
   <Parameter name="center">-124.07,46.0661,10</Parameter>
   <Parameter name="description"><![CDATA[Lewis and Clark National Historic Park Vegeation Map]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="interactivity_layer">vegetation</Parameter>
+  <Parameter name="interactivity_fields">mapunit_name</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[lewi-vegmap]]></Parameter>
   <Parameter name="source"><![CDATA[mapbox:///ryanjhodge.07752149]]></Parameter>
+  <Parameter name="template"><![CDATA[<b>Association:</b> {{mapunit_name}}]]></Parameter>
 </Parameters>
 
 
