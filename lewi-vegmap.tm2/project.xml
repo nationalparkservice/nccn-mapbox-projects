@@ -17,6 +17,151 @@
 
 <Style name="vegetation" filter-mode="first">
   <Rule>
+    <Filter>([mapunit_name] = 'Western Hemlock - Douglas-fir / Western Cordilleran Bunchberry Mesic Forest Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#a8a800" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Western Hemlock - Douglas-fir / Salmonberry Wet Forest Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#38a800" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Water')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#73b2ff" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Vancouverian Lowland and Coastal Cliffs, Bluffs and Rock Vegetation Group')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#e1e1e1" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Vancouverian Freshwater Coastal Marsh and Meadow Group')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#7a8ef5" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Vancouverian Flooded Swamp Forest Macrogroup')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#d3ffbe" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Temperate Pacific Tidal Salt and Brackish Marsh Group')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#6699cd" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Temperate Pacific Tidal Fresh-Brackish Marsh Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#9ebbd7" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Temperate Pacific Low and Intermediate Salt Marsh Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#6677cd" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Temperate Mowed Lawns and Temperate Planted Trees / Gardens Alliances')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#9ed7c2" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Sweet Vernal Grass - Velvet Grass Ruderal Coastal Grassland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#ffff73" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Southern Vancouverian Shrub and Herbaceous Bald and Bluff Group')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#c29ed7" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Slough Sedge - Bulrush - Bulrush - Cattail Freshwater Marsh Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#9eaad7" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Sitka Spruce - (Western Hemlock) Forest Alliance - Younger')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#abcd66" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Sitka Spruce - (Western Hemlock) Forest Alliance - recent blowdown area')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#a5f57a" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Sitka Spruce - (Western Hemlock) Forest Alliance - Older')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#d7d79e" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Shore pine - Sitka Spruce - Dune Willow - Oregon Crabapple Dune Shrubland and Scotch Broom - Gorse - Bush Lupine Coastal Dune Ruderal Shrubland and Dwarf Tree Alliances')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#cd6666" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Roads, Bare Ground, Parking lots and Impervious Surfaces')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#b2b2b2" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Red Alder - (Sitka Spruce, Western Hemlock) Forest and Woodland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#e9ffbe" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Permanent Planted Grassland')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#e6e600" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'North Pacific (Shore Pine, Sitka Spruce) Stabilized Dune Forest and Woodland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#b4d79e" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Hooker’s Willow Seasonally Flooded Shrubland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#ff7f7f" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'European Beachgrass - Planted American Dunegrass Coastal Dunegrass Ruderal Grassland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#f5f57a" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'European Beachgrass - American Beachgrass Exotic Dune Grassland')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#ffffbe" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Bigleaf Maple - (Douglas-fir) Forest Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#cdcd66" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = 'Beach')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#ffebaf" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = '(Western Hemlock, Sitka Spruce, Western Red-cedar, Fir species) / Yellow Skunk-cabbage Coniferous Swamp Woodland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#d7c29e" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = '(Bigleaf Maple, Red Alder) Riparian Forest Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#89cd66" fill-opacity="1" />
+  </Rule>
+  <Rule>
+    <Filter>([mapunit_name] = '(Alder species, Ash species, Willow species) / Yellow Skunk-cabbage Deciduous Swamp Woodland Alliance')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-opacity="1" />
+    <PolygonSymbolizer fill="#897044" fill-opacity="1" />
+  </Rule>
+  <Rule>
     <LineSymbolizer stroke="#000000" stroke-opacity="1" />
     <PolygonSymbolizer fill-opacity="1" />
   </Rule>
