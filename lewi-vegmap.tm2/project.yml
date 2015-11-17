@@ -1,6 +1,6 @@
 _prefs: 
   mapid: ryanjhodge.4c6f39a2
-  saveCenter: true
+  saveCenter: false
 _properties: 
   bridge: 
     "group-by": layer
