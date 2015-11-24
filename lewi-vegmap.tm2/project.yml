@@ -24,4 +24,4 @@ name: LEWI Vegetation Inventory Map
 source: "mapbox:///ryanjhodge.ecdda60d"
 styles: 
   - style.mss
-template: "<b>Vegetation Map Unit:</b> {{mapunit_label}}"
+template: "<b>Vegetation Map Unit:</b> {{mapunit_name}}"
