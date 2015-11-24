@@ -6,19 +6,19 @@
   <Parameter name="attribution"><![CDATA[National Park Service]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
   <Parameter name="center">-124.07,46.0661,10</Parameter>
-  <Parameter name="description"><![CDATA[Lewis and Clark National Historic Park Vegeation Map]]></Parameter>
+  <Parameter name="description"><![CDATA[Lewis and Clark National Historic Park Vegeation Inventory Map]]></Parameter>
   <Parameter name="format">png8:m=h</Parameter>
-  <Parameter name="interactivity_layer">vegetation</Parameter>
-  <Parameter name="interactivity_fields">mapunit_name</Parameter>
+  <Parameter name="interactivity_layer">lewi_vegetation</Parameter>
+  <Parameter name="interactivity_fields">mapunit_label</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
-  <Parameter name="name"><![CDATA[lewi-vegmap]]></Parameter>
-  <Parameter name="source"><![CDATA[mapbox:///ryanjhodge.07752149]]></Parameter>
-  <Parameter name="template"><![CDATA[<b>Association:</b> {{mapunit_name}}]]></Parameter>
+  <Parameter name="name"><![CDATA[LEWI Vegetation Inventory Map]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///ryanjhodge.ecdda60d]]></Parameter>
+  <Parameter name="template"><![CDATA[<b>Vegetation Map Unit:</b> {{mapunit_label}}]]></Parameter>
 </Parameters>
 
 
-<Style name="vegetation" filter-mode="first">
+<Style name="lewi_vegetation" filter-mode="first">
   <Rule>
     <Filter>([mapunit_name] = 'Western Hemlock - Douglas-fir / Western Cordilleran Bunchberry Mesic Forest Alliance')</Filter>
     <LineSymbolizer stroke="#000000" stroke-opacity="1" />
@@ -169,8 +169,8 @@
     <PolygonSymbolizer fill-opacity="1" />
   </Rule>
 </Style>
-<Layer name="vegetation"
+<Layer name="lewi_vegetation"
   srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
-    <StyleName>vegetation</StyleName>  </Layer>
+    <StyleName>lewi_vegetation</StyleName>  </Layer>
 
 </Map>

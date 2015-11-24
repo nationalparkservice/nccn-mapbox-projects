@@ -2,7 +2,7 @@ Map {
   background-color: transparent;
 }
 
-#vegetation {
+#lewi_vegetation {
   line-color: black;
   polygon-opacity: 1;
   line-opacity: 1;
