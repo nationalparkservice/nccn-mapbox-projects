@@ -15,13 +15,13 @@ center:
   - 46.0661
   - 10
 description: Lewis and Clark National Historic Park Vegeation Inventory Map
-format: "png8:m=h"
+format: "png8:m=h:c=128"
 interactivity_layer: lewi_vegetation
 layers: null
 maxzoom: 22
-minzoom: 0
+minzoom: 8
 name: LEWI Vegetation Inventory Map
 source: "mapbox:///ryanjhodge.ecdda60d"
 styles: 
   - style.mss
-template: "<b>Vegetation Map Unit:</b> {{mapunit_name}}"
+template: "<b>Division:</b> {{division_name}}<br/><b>Alliance:</b> {{alliance_common_name}}<br/><b>Vegetation Unit:</b> {{mapunit_name}}"
