@@ -7,7 +7,7 @@
   <Parameter name="center">-123.9793,46.0918,10</Parameter>
   <Parameter name="description"><![CDATA[Lewis and Clark National Historic Park Vegeation Inventory Map]]></Parameter>
   <Parameter name="format">pbf</Parameter>
-  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"lewi_vegetation","description":"Lewis and Clark National Historical Park Vegetation Inventory Polygons","fields":{"OGC_FID":"Number","poly_id":"Number","mapunit_id":"String","mapunit_name":"String","acres":"Number","hectares":"Number","mapunit_label":"String","mapunit_nvc_common_name":"String","mapunit_nvc_scientific_name":"String","association_cegl_code":"String","association_common_name":"String","association_scientific_name":"String","alliance_nvc_code":"String","alliance_common_name":"String","alliance_scientific_name":"String","division_nvc_code":"String","division_name":"String"}}]}]]></Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"lewi_vegetation","description":"Lewis and Clark National Historical Park Vegetation Inventory Polygons","fields":{"OGC_FID":"Number","poly_id":"Number","mapunit_id":"String","mapunit_name":"String","acres":"Number","hectares":"Number","mapunit_label":"String","mapunit_nvc_common_name":"String","mapunit_nvc_scientific_name":"String","association_cegl_code":"String","association_common_name":"String","association_scientific_name":"String","alliance_nvc_code":"String","alliance_common_name":"String","alliance_scientific_name":"String","division_nvc_code":"String","division_name":"String"}},{"id":"project_boundary","description":"","fields":{"Acres":"Number","Hectares":"Number","SHAPE_Area":"Number","SHAPE_Length":"Number","State":"String","Sublocation":"String","Unit_Code":"String","Unit_Name":"String"}},{"id":"park_boundary","description":"LEWI Park Boundary","fields":{"Acres":"Number","Hectares":"Number","Legislative":"String","MgtType":"Number","Park_Admin":"String","Park_Code":"String","Park_Name":"String","SHAPE_Area":"Number","SHAPE_Length":"Number","State":"String","Sublocation":"String"}}]}]]></Parameter>
   <Parameter name="maxzoom">16</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[LEWI Vegetation Inventory Map]]></Parameter>
@@ -23,6 +23,28 @@
        <Parameter name="key_field"><![CDATA[]]></Parameter>
        <Parameter name="table"><![CDATA[(SELECT * FROM lewi_vegetation) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[sqlite]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="project_boundary"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[data/project_boundary.geojson]]></Parameter>
+       <Parameter name="layer"><![CDATA[project_boundary]]></Parameter>
+       <Parameter name="type"><![CDATA[geojson]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="park_boundary"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[data/park_boundary.geojson]]></Parameter>
+       <Parameter name="layer"><![CDATA[park_boundary]]></Parameter>
+       <Parameter name="type"><![CDATA[geojson]]></Parameter>
     </Datasource>
   </Layer>
 

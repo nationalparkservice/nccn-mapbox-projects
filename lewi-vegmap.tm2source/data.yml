@@ -2,7 +2,7 @@ _prefs:
   disabled: []
   inspector: false
   mapid: ryanjhodge.ecdda60d
-  rev: s-69d36be5
+  rev: s-1f2945a5
   saveCenter: false
 attribution: National Park Service
 center: 
@@ -39,6 +39,45 @@ Layer:
     properties: 
       "buffer-size": 8
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
+  - id: project_boundary
+    Datasource: 
+      file: data/project_boundary.geojson
+      layer: project_boundary
+      type: geojson
+    description: ''
+    fields: 
+      Acres: Number
+      Hectares: Number
+      SHAPE_Area: Number
+      SHAPE_Length: Number
+      State: String
+      Sublocation: String
+      Unit_Code: String
+      Unit_Name: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: park_boundary
+    Datasource: 
+      file: data/park_boundary.geojson
+      layer: park_boundary
+      type: geojson
+    description: LEWI Park Boundary
+    fields: 
+      Acres: Number
+      Hectares: Number
+      Legislative: String
+      MgtType: Number
+      Park_Admin: String
+      Park_Code: String
+      Park_Name: String
+      SHAPE_Area: Number
+      SHAPE_Length: Number
+      State: String
+      Sublocation: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
 maxzoom: 16
 minzoom: 0
 name: LEWI Vegetation Inventory Map
